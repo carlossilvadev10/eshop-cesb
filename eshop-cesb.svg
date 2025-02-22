@@ -1,0 +1,8 @@
+<svg xmlns = "http://www.w3.org/2000/svg" viewBox = "0 0 100 100" fill = "red">
+    <path d = "M20 30 H80 L70 60 H30 Z" stroke="black" stroke-width="4" fill="red"/>
+    <circle cx = "35" cy = "70" r = "5" fill = "black"/>
+    <circle cx = "65" cy = "70" r = "5" fill = "black"/>
+    <text x = "50%" y = "50%" font-size = "18" font-family = "Arial" fill = "white" text-anchor = "middle" dominant-baseline = "middle">
+        CESB
+    </text>
+</svg>
