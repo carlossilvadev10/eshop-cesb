@@ -114,4 +114,4 @@ const Navbar = ({ handleOrderPopup }) => {
     )
 }
 
-export default Navbar
+export default Navbar;

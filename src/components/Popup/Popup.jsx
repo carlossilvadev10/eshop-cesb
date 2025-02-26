@@ -38,4 +38,4 @@ const Popup = ({ orderPopup, handleOrderPopup }) => {
     )
 }
 
-export default Popup
+export default Popup;

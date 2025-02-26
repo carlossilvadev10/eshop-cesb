@@ -1,10 +1,5 @@
 import React from "react";
-import {
-    FaCarSide,
-    FaHeadphonesAlt,
-    FaWallet,
-    FaCheckCircle,
-} from "react-icons/fa";
+import { FaCarSide, FaHeadphonesAlt, FaWallet, FaCheckCircle } from "react-icons/fa";
 
 const ServiceData = [
     {
@@ -63,4 +58,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Services;
