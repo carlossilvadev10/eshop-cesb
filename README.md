@@ -22,7 +22,7 @@ Bienvenido a **ESHOP CESB**, tu tienda en línea donde encontrarás la mejor sel
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/carlozzsilva10/ECommerceShop.git
+   git clone https://github.com/carlozzsilva10/ecommerce-shop.git
    ```
 2. Ve al directorio del proyecto:
    ```bash
