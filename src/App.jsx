@@ -15,7 +15,6 @@ import "aos/dist/aos.css"
 import headphone from "./assets/hero/headphone.png";
 import smartwach from "./assets/category/smartwatch.png";
 
-
 const BannerData = {
     discount: "30% OFF",
     title: "Vibración Única",
