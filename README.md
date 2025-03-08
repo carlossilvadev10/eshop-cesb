@@ -26,7 +26,7 @@ Bienvenido a **ESHOP CESB**, tu tienda en línea donde encontrarás la mejor sel
    ```
 2. Ve al directorio del proyecto:
    ```bash
-   cd ECommerceShop
+   cd ecommerce-shop
    ```
 3. Instala las dependencias:
    ```bash
