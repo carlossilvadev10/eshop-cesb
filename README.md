@@ -14,9 +14,9 @@ Bienvenido a **ESHOP CESB**, tu tienda en línea donde encontrarás la mejor sel
 
 ## 🛠️ Tecnologías Usadas 👨‍💻
 
-| HTML | CSS | JavaScript | React | Tailwind CSS | Vite |
-|------|-----|-----------|-------|-------------|------|
-| ![HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg) | ![CSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg) | ![JavaScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg) | ![React](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg) | ![TailwindCSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg) | ![Vite](https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg) |
+| HTML | CSS | JavaScript | React | Tailwind CSS | Vite | Node.js |
+|------|-----|-----------|-------|-------------|------|---------|
+| ![HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg) | ![CSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg) | ![JavaScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg) | ![React](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg) | ![TailwindCSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg) | ![Vite](https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg) | ![Node.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg) |
 
 ## 📌 Instalación y Uso
 
