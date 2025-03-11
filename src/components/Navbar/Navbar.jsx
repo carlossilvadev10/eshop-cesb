@@ -47,7 +47,7 @@ const DropdownLinks = [
 
 const Navbar = ({ handleOrderPopup }) => {
     return (
-        <div className = "bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-10">
+        <nav className = "bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-10">
             <div className = "py-4">
                 <div className = "container flex justify-between items-center">
                     {/* Logo and Links section */}
@@ -110,7 +110,7 @@ const Navbar = ({ handleOrderPopup }) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </nav>
     )
 }
 
