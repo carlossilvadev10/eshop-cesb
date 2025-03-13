@@ -71,7 +71,7 @@ const ProductsData = [
 
 const Products = () => {
     return (
-        <div className = "">
+        <section className = "">
             <div className = "container">
                 <div className = "grid">
                     {/* Header section */}
@@ -80,7 +80,7 @@ const Products = () => {
                     <ProductCard data = {ProductsData} />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

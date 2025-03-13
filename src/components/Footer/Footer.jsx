@@ -42,7 +42,7 @@ const QuickLinks = [
 
 const Footer = () => {
     return (
-        <div className = "dark:bg-gray-950">
+        <footer className = "dark:bg-gray-950">
             <div className = "container">
                 <div className = "grid md:grid-cols-3 pb-20 pt-5">
                     <div className = "py-8 px-4">
@@ -126,7 +126,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }
 

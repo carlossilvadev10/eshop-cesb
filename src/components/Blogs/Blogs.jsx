@@ -30,7 +30,7 @@ const BlogData = [
 
 const Blogs = () => {
     return (
-        <div className = "my-12">
+        <section className = "my-12">
             <div className = "container">
                 {/* Header section */}
                 <Heading title = "Noticias recientes" subtitle = {"Explora nuestras últimas novedades y lanzamientos."} />
@@ -55,7 +55,7 @@ const Blogs = () => {
                     }
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
