@@ -42,7 +42,8 @@ Bienvenido a **ESHOP CESB**, tu tienda en línea donde encontrarás la mejor sel
 Si tienes alguna pregunta o sugerencia, puedes encontrarme en:
 
 - 🌐 [Mi GitHub](https://github.com/carlozzsilva10)
-- [📧 ](https://github.com/carlozzsilva10)Email: [carlos.esilva1007@gmail.com](mailto\:tuemail@ejemplo.com)
+- 📧 Email: [carlozzsilva10@gmail.com](mailto:carlozzsilva10@gmail.com)
+- 💼 [Mi LinkedIn](https://www.linkedin.com/in/carlos-eduardo-silva-bustamante-b6084528b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 ---
 
