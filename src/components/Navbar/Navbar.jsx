@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import DarkMode from "./DarkMode";
 import { IoMdSearch } from "react-icons/io";
-import { FaShoppingCart } from "react-icons/fa";
-import { FaCaretDown } from "react-icons/fa";
+import { FaShoppingCart, FaCaretDown } from "react-icons/fa";
 
 const MenuLinks = [
     {
@@ -46,8 +45,19 @@ const DropdownLinks = [
 ];
 
 const Navbar = ({ handleOrderPopup }) => {
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 10);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return (
-        <nav className = "bg-white dark:bg-gray-900 dark:text-white duration-200 fixed w-full z-10">
+        <nav className = {`bg-white dark:bg-gray-900 dark:text-white duration-200 fixed w-full z-10 ${isScrolled ? "shadow-md" : ""}`}>
             <div className = "py-4">
                 <div className = "container flex justify-between items-center">
                     {/* Logo and Links section */}

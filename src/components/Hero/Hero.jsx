@@ -78,7 +78,7 @@ const Hero = ({ handleOrderPopup }) => {
                                         {/* Image section */}
                                         <div className = "order-1 sm:order-2">
                                             <div className = "relative z-10" data-aos = "zoom-in" data-aos-once = "true">
-                                                <img src = {data.img} alt = "img1" className = "w-[300px] sm:w-[450px] h-[300px] sm:h-[450px] sm:scale-105 lg:scale-110 object-contain mx-auto drop-shadow-[-8px_4px_6px_rgba(0, 0, 0, .4)] relative z-40" />
+                                                <img src = {data.img} alt = "img1" className = "w-[300px] sm:w-[450px] h-[300px] sm:h-[450px] sm:scale-105 lg:scale-110 object-contain mx-auto relative z-40" style = {{ filter: 'drop-shadow(-8px 4px 6px rgba(0, 0, 0, 0.4))' }} />
                                             </div>
                                         </div>
                                     </div>

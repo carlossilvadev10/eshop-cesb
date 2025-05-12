@@ -71,7 +71,7 @@ const ProductsData = [
 
 const Products = () => {
     return (
-        <section className = "">
+        <section className = "scroll-mt-24" id = "shop">
             <div className = "container">
                 <div className = "grid">
                     {/* Header section */}
