@@ -17,7 +17,7 @@ const MenuLinks = [
     {
         id: 3,
         name: "Sobre nosotros",
-        link: "/#about",
+        link: "/#about-us",
     },
     {
         id: 4,

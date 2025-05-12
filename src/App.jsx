@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Category from "./components/Category/Category";
 import Category2 from "./components/Category/Category2";
 import Services from "./components/Services/Services";
+import AboutUs from "./components/About Us/AboutUs";
 import Banner from "./components/Banner/Banner";
 import Products from "./components/Products/Products";
 import Blogs from "./components/Blogs/Blogs";
@@ -60,6 +61,7 @@ const App = () => {
             <Category />
             <Category2 />
             <Services />
+            <AboutUs />
             <Banner data = {BannerData} />
             <Products />
             <Banner data = {BannerData2} />

@@ -9,7 +9,7 @@ const FooterLinks = [
     },
     {
         title: "Sobre nosotros",
-        link: "/#about",
+        link: "/#about-us",
     },
     {
         title: "Contacto",

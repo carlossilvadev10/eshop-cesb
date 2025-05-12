@@ -30,7 +30,7 @@ const BlogData = [
 
 const Blogs = () => {
     return (
-        <section className = "my-12" id = "blog">
+        <section className = "my-12 scroll-mt-24" id = "blog">
             <div className = "container">
                 {/* Header section */}
                 <Heading title = "Noticias recientes" subtitle = {"Explora nuestras últimas novedades y lanzamientos."} />
