@@ -1,6 +1,6 @@
 # ESHOP CESB 🚀
 
-[![ESHOP CESB](./src/assets/imagen-preview.png)](https://eshop-cesb.netlify.app/)
+[![ESHOP CESB](./src/assets/image-preview.png)](https://eshop-cesb.netlify.app/)
 
 Bienvenido a **ESHOP CESB**, tu tienda en línea donde encontrarás la mejor selección de dispositivos tecnológicos diseñados para facilitar tu día a día. Desde smartphones y laptops de última generación hasta accesorios innovadores, ofrecemos productos de alta calidad con garantía y soporte confiable.
 
