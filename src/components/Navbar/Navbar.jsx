@@ -11,13 +11,13 @@ const MenuLinks = [
     },
     {
         id: 2,
-        name: "Tienda",
-        link: "/#shop",
+        name: "Sobre nosotros",
+        link: "/#about-us",
     },
     {
         id: 3,
-        name: "Sobre nosotros",
-        link: "/#about-us",
+        name: "Tienda",
+        link: "/#shop",
     },
     {
         id: 4,
