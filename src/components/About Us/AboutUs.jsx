@@ -13,7 +13,7 @@ const AboutUs = () => {
                 {/* Body section */}
                 <div className = "grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                     {/* Descripción de la tienda */}
-                    <div>
+                    <div data-aos = "slide-right" data-aos-duration = "1000">
                         <p className = "text-lg text-justify leading-relaxed">
                             EShop CESB nació con la visión de facilitar el acceso a la tecnología de calidad para todos.
                             Fundada por un grupo de apasionados por la innovación, nuestra tienda en línea comenzó como
@@ -25,9 +25,8 @@ const AboutUs = () => {
                             no solo mejora la vida, sino que la transforma.
                         </p>
                     </div>
-
                     {/* Imagen de la tienda */}
-                    <div>
+                    <div data-aos = "slide-left" data-aos-duration = "1000">
                         <img src =  {ImageAbout} alt = "Imagen de EShop CESB" className = "rounded-lg shadow-lg w-full h-auto" />
                     </div>
                 </div>
