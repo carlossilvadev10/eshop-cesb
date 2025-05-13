@@ -14,15 +14,10 @@ const AboutUs = () => {
                 <div className = "grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                     {/* Descripción de la tienda */}
                     <div data-aos = "slide-right" data-aos-duration = "1000">
-                        <p className = "text-lg text-justify leading-relaxed">
-                            EShop CESB nació con la visión de facilitar el acceso a la tecnología de calidad para todos.
-                            Fundada por un grupo de apasionados por la innovación, nuestra tienda en línea comenzó como
-                            un pequeño emprendimiento con la misión de brindar soluciones tecnológicas confiables, accesibles
-                            y modernas. Con el paso del tiempo, nos consolidamos gracias al compromiso con nuestros clientes,
-                            quienes confían en nosotros para encontrar los últimos smartphones, laptops, wearables y accesorios
-                            tecnológicos. Cada producto que ofrecemos está cuidadosamente seleccionado para garantizar
-                            funcionalidad, durabilidad y un diseño innovador. En EShop CESB, creemos que la tecnología
-                            no solo mejora la vida, sino que la transforma.
+                        <p className = "text-md text-justify leading-relaxed">
+                            EShop CESB nació con la idea de acercar la tecnología de calidad a todos, impulsado por un equipo apasionado por la innovación, comenzamos como un pequeño emprendimiento
+                            con la misión de ofrecer soluciones tecnológicas modernas, accesibles y confiables, con el tiempo crecimos gracias a la confianza de nuestros clientes, quienes encuentran
+                            en nosotros smartphones, laptops y accesorios seleccionados por su funcionalidad, durabilidad y diseño, en EShop CESB creemos que la tecnología transforma vidas.
                         </p>
                     </div>
                     {/* Imagen de la tienda */}

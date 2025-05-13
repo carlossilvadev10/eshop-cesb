@@ -34,7 +34,7 @@ const ServiceData = [
 
 const Services = () => {
     return (
-        <section>
+        <section className = "pb-8">
             <div className = "container my-14 md:my-20">
                 <div className = "grid grid-cols-2 lg:grid-cols-4 gap-4 gap-y-8">
                     {
