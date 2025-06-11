@@ -4,7 +4,9 @@
 
 Bienvenido a **ESHOP CESB**, tu tienda en línea donde encontrarás la mejor selección de dispositivos tecnológicos diseñados para facilitar tu día a día. Desde smartphones y laptops de última generación hasta accesorios innovadores, ofrecemos productos de alta calidad con garantía y soporte confiable.
 
-## 🌟 Características
+---
+
+## 🌟 Características Principales
 
 - Catálogo con los dispositivos más recientes. 💻
 - Diseño moderno y fácil de usar. 🎨
@@ -12,11 +14,25 @@ Bienvenido a **ESHOP CESB**, tu tienda en línea donde encontrarás la mejor sel
 - Animaciones y transiciones fluidas. ✨
 - Modo oscuro disponible para una mejor experiencia visual. 🌙
 
+---
+
+## ❓ ¿Por qué se llama ESHOP CESB?
+
+El nombre **ESHOP CESB** no es solo una marca, sino una representación personal y auténtica. **CESB** son las iniciales de su creador, **Carlos Eduardo Silva Bustamante**, lo que refleja el compromiso directo con la calidad, la confianza y la atención al detalle en cada producto ofrecido.
+
+Más allá de ser una simple tienda en línea, **ESHOP CESB** es un proyecto impulsado por la pasión por la tecnología y el deseo de brindar soluciones reales a las necesidades cotidianas. Cada artículo disponible ha sido cuidadosamente seleccionado para garantizar una experiencia de compra confiable y satisfactoria.
+
+**ESHOP CESB** es, en esencia, la unión entre identidad personal y excelencia tecnológica.
+
+---
+
 ## 🛠️ Tecnologías Usadas 👨‍💻
 
 | HTML | CSS | JavaScript | React | Tailwind CSS | Vite | Node.js |
 |------|-----|-----------|-------|-------------|------|---------|
 | ![HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg) | ![CSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg) | ![JavaScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg) | ![React](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg) | ![TailwindCSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg) | ![Vite](https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg) | ![Node.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg) |
+
+---
 
 ## 📌 Instalación y Uso
 
@@ -36,6 +52,8 @@ Bienvenido a **ESHOP CESB**, tu tienda en línea donde encontrarás la mejor sel
    ```bash
    npm run dev
    ```
+
+---
 
 ## 📩 Contacto
 
