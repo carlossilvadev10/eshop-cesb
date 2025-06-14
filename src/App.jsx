@@ -11,6 +11,7 @@ import Products from "./components/Products/Products";
 import Blogs from "./components/Blogs/Blogs";
 import Partners from "./components/Partners/Partners";
 import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/Shared/ScrollToTop";
 import Popup from "./components/Popup/Popup";
 import headphone from "./assets/hero/headphone.png";
 import smartwach from "./assets/category/smartwatch.png";
@@ -66,6 +67,7 @@ const App = () => {
             <Blogs />
             <Partners />
             <Footer />
+            <ScrollToTop />
             <Popup orderPopup = {orderPopup} handleOrderPopup = {handleOrderPopup} />
         </div>
     )
