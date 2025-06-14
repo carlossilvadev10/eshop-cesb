@@ -12,17 +12,17 @@ const MenuLinks = [
     {
         id: 2,
         name: "Sobre nosotros",
-        link: "/#about-us",
+        link: "/#",
     },
     {
         id: 3,
         name: "Tienda",
-        link: "/#shop",
+        link: "/#",
     },
     {
         id: 4,
         name: "Blogs",
-        link: "/#blog",
+        link: "/#",
     },
 ];
 
@@ -66,7 +66,7 @@ const Navbar = ({ handleOrderPopup }) => {
                             EShop CESB
                         </a>
                         {/* Menu Items */}
-                        <div className = "hidden lg:block">
+                        <div className = "hidden lg:block absolute left-1/2 -translate-x-[72%]">
                             <ul className = "flex items-center gap-4">
                                 {
                                     MenuLinks.map((data, index) => (

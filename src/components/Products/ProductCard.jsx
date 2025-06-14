@@ -3,7 +3,7 @@ import Button from "../Shared/Button";
 
 const ProductCard = ({ data }) => {
     return (
-        <section className = "mb-10">
+        <section className = "">
             <div className = "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 place-items-center">
                 {/* Card section */}
                 {

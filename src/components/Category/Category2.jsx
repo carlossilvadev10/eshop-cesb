@@ -6,7 +6,7 @@ import Image3 from "../../assets/category/speaker.png";
 
 const Category2 = () => {
     return (
-        <section className = "py-8">
+        <section className = "pt-8">
             <div className = "container">
                 <div className = "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     {/* First col */}
