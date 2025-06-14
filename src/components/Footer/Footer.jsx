@@ -45,7 +45,7 @@ const Footer = () => {
         <footer className = "dark:bg-gray-950">
             <div className = "container">
                 <div className = "grid md:grid-cols-3 pb-20">
-                    <div className = "px-4">
+                    <div className = "pb-8 md:pb-0 px-4">
                         <a href = "#" className = "text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl">
                             EShop CESB
                         </a>
@@ -61,7 +61,7 @@ const Footer = () => {
                     </div>
                     {/* Footer links */}
                     <div className = "col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-14">
-                        <div className = "px-4">
+                        <div className = "py-8 md:py-0 px-4">
                             <h1 className = "text-xl font-bold sm:text-left mb-3">
                                 Links Importantes
                             </h1>
@@ -78,7 +78,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         {/* Second col links */}
-                        <div className = "px-4">
+                        <div className = "py-8 md:py-0 px-4">
                             <h1 className = "text-xl font-bold sm:text-left mb-3">
                                 Links Rápidos
                             </h1>
@@ -95,7 +95,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         {/* Company address */}
-                        <div className = "px-4 col-span-2 sm:col-auto">
+                        <div className = "py-8 md:py-0 px-4 col-span-2 sm:col-auto">
                             <h1 className = "text-xl font-bold sm:text-left mb-3">
                                 Dirección
                             </h1>
