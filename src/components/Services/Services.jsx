@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCarSide, FaHeadphonesAlt, FaWallet, FaCheckCircle } from "react-icons/fa";
 
-const ServiceData = [
+const serviceData = [
     {
         id: 1,
         icon: <FaCarSide className = "text-4xl md:text-5xl text-primary" />,
@@ -38,16 +38,16 @@ const Services = () => {
             <div className = "container">
                 <div className = "grid grid-cols-2 lg:grid-cols-4 gap-4 gap-y-8">
                     {
-                        ServiceData.map((data) => (
-                            <div className = "flex flex-col items-center sm:flex-row gap-4" data-aos = "fade-up" data-aos-delay = {data.aosDelay}>
+                        serviceData.map((data) => (
+                            <div key = {data.id} className = "flex flex-col items-center sm:flex-row gap-4" data-aos = "fade-up" data-aos-delay = {data.aosDelay}>
                                 {data.icon}
                                 <div className = "">
-                                    <h1 className = "lg:text-xl font-bold">
+                                    <h2 className = "lg:text-xl font-bold">
                                         {data.title}
-                                    </h1>
-                                    <h1 className = "text-gray-400 text-sm">
+                                    </h2>
+                                    <p className = "text-gray-400 text-sm">
                                         {data.description}
-                                    </h1>
+                                    </p>
                                 </div>
                             </div>
                         ))

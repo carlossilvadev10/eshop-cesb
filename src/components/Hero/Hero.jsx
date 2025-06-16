@@ -59,7 +59,7 @@ const Hero = ({ handleOrderPopup }) => {
                         {
                             HeroData().map((data) => (
                                 <div key = {data.id}>
-                                    <div className = "grid grid-cols-1 sm:grid-cols-2">
+                                    <div className = "grid grid-cols-1 sm:grid-cols-2 overflow-hidden">
                                         {/* Text content section */}
                                         <div className = "flex flex-col justify-center gap-4 sm:pl-3 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10">
                                             <h1 className = "text-2xl sm:text-6xl lg:text-2xl font-bold" data-aos = "zoom-out" data-aos-duration = "500" data-aos-once = "true">

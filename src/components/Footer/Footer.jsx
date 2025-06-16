@@ -42,17 +42,17 @@ const QuickLinks = [
 
 const Footer = () => {
     return (
-        <footer className = "dark:bg-gray-950">
+        <footer className = "dark:bg-gray-900">
             <div className = "container">
                 <div className = "grid md:grid-cols-3 pb-20">
                     <div className = "pb-8 md:pb-0 px-4">
                         <a href = "#" className = "text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl">
                             EShop CESB
                         </a>
-                        <p className = "text-gray-600 dark:text-white/70 lg:pr-24 pt-3 text-justify">
+                        <p className = "xl:pr-10 pt-3 text-justify">
                             En <strong>EShop CESB</strong>, ofrecemos los últimos dispositivos tecnológicos para mejorar tu día a día.
                             Encuentra desde smartphones y laptops hasta accesorios innovadores con la mejor calidad y garantía.</p>
-                        <p className = "text-gray-500 mt-4">
+                        <p className = "mt-4 text-justify">
                             Hecho con ❤️ por <a href = "https://github.com/carlozzsilva10" target = "_blank" rel = "noopener noreferrer" className = "text-primary font-semibold hover:underline">carlozzsilva10</a>
                         </p>
                         <a href = "#" target = "_blank" className = "inline-block bg-primary/90 text-white px-4 py-2 mt-4 text-sm rounded-full">
@@ -69,7 +69,7 @@ const Footer = () => {
                                 {
                                     FooterLinks.map((data, index) => (
                                         <li key = {index}>
-                                            <a href = {data.link} className = "text-gray-600 dark:text-gray-400 hover:text-black hover:dark:text-white duration-300">
+                                            <a href = {data.link} className = "text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white duration-300">
                                                 {data.title}
                                             </a>
                                         </li>
@@ -86,7 +86,7 @@ const Footer = () => {
                                 {
                                     QuickLinks.map((data, index) => (
                                         <li key = {index}>
-                                            <a href = {data.link} className = "text-gray-600 dark:text-gray-400 hover:text-black hover:dark:text-white duration-300">
+                                            <a href = {data.link} className = "text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white duration-300">
                                                 {data.title}
                                             </a>
                                         </li>
