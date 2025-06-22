@@ -67,7 +67,7 @@ const NavbarMobile = ({ isMenuOpen, closeMenu }) => {
                 }
                 {/* Dropdown */}
                 <div className = "">
-                    <button onClick = {() => setShowDropdown(!showDropdown)} className = "w-full flex items-center justify-between text-[20px] sm:text-[30px] font-semibold pb-2 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white duration-200">
+                    <button className = "w-full flex items-center justify-between text-[20px] sm:text-[30px] font-semibold pb-2 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white duration-200" onClick = {() => setShowDropdown(!showDropdown)}>
                         <span className = "inline-block border-b-[2px] border-gray-300 pb-1">
                             Enlaces rápidos
                         </span>

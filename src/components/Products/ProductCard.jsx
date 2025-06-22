@@ -12,7 +12,7 @@ const ProductCard = ({ data }) => {
                             <div className = "relative">
                                 <img src = {data.img} alt = "imgPC" className = "h-[180px] w-[260px] object-cover rounded-md" />
                                 <div className = "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-full w-full text-center flex justify-center items-center backdrop-blur-0 transition-all duration-200 ease-in-out opacity-0 group-hover:backdrop-blur-sm group-hover:opacity-100">
-                                    <Button text = {"Agregar al carrito"} bgColor = {"bg-primary"} textColor = {"text-white"} />
+                                    <Button text = "Agregar al carrito" bgColor = "bg-primary" textColor = "text-white" />
                                 </div>
                             </div>
                             <div className = "leading-7">

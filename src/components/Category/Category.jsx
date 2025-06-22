@@ -16,7 +16,7 @@ const Category = () => {
                                 <p className = "mb-[2px] text-gray-400">Disfruta</p>
                                 <p className = "text-2xl font-semibold mb-[2px]">Tus</p>
                                 <p className = "text-4xl xl:text-5xl font-bold opacity-20 mb-4">Earphones</p>
-                                <Button text = "Explorar" bgColor = {"bg-primary"} textColor = {"text-white"} />
+                                <Button text = "Explorar" bgColor = "bg-primary" textColor = "text-white" />
                             </div>
                         </div>
                         <img src = {Image1} alt = "img1C" className = "w-[320px] absolute bottom-0" data-aos = "fade-up" data-aos-duration = "600" />
@@ -28,7 +28,7 @@ const Category = () => {
                                 <p className = "mb-[2px] text-white">Luce</p>
                                 <p className = "text-2xl font-semibold mb-[2px]">Tu</p>
                                 <p className = "text-4xl xl:text-5xl font-bold opacity-40 mb-4">Smartwatch</p>
-                                <Button text = "Explorar" bgColor = {"bg-white"} textColor = {"text-brandYellow"} />
+                                <Button text = "Explorar" bgColor = "bg-white" textColor = "text-brandYellow" />
                             </div>
                         </div>
                         <img src = {Image2} alt = "img2C" className = "w-[320px] absolute -right-16 lg:top-[40px]" data-aos = "fade-up" data-aos-duration = "1100" />
@@ -40,7 +40,7 @@ const Category = () => {
                                 <p className = "mb-[2px] text-white">Potencia</p>
                                 <p className = "text-2xl font-semibold mb-[2px]">Tu</p>
                                 <p className = "text-4xl xl:text-5xl font-bold opacity-40 mb-4">Laptop</p>
-                                <Button text = "Explorar" bgColor = {"bg-white"} textColor = {"text-primary"} />
+                                <Button text = "Explorar" bgColor = "bg-white" textColor = "text-primary" />
                             </div>
                         </div>
                         <img src = {Image3} alt = "img3C" className = "w-[250px] absolute top-8 -translate-y-1/2 right-8" data-aos = "fade-up" data-aos-duration = "1600" />

@@ -75,7 +75,7 @@ const Products = () => {
             <div className = "container">
                 <div className = "grid">
                     {/* Header section */}
-                    <Heading title = "Nuestros productos" subtitle = {"Descubre nuestra selección de productos."} />
+                    <Heading title = "Nuestros productos" subtitle = "Descubre nuestra selección de productos." />
                     {/* Body section */}
                     <ProductCard data = {ProductsData} />
                 </div>

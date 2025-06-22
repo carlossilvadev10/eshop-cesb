@@ -16,7 +16,7 @@ const Category2 = () => {
                                 <p className = "mb-[2px] text-white">Explora</p>
                                 <p className = "text-2xl font-semibold mb-[2px]">Tu</p>
                                 <p className = "text-4xl xl:text-5xl font-bold opacity-40 mb-4">Consola</p>
-                                <Button text = "Explorar" bgColor = {"bg-primary"} textColor = {"text-white"} />
+                                <Button text = "Explorar" bgColor = "bg-primary" textColor = "text-white" />
                             </div>
                         </div>
                         <img src = {Image1} alt = "img1C2" className = "w-[250px] absolute top-10 -translate-y-1/2 right-8" data-aos = "fade-up" data-aos-duration = "600" />
@@ -28,7 +28,7 @@ const Category2 = () => {
                                 <p className = "mb-[2px] text-white">Siente</p>
                                 <p className = "text-2xl font-semibold mb-[2px]">Tus</p>
                                 <p className = "text-4xl xl:text-5xl font-bold opacity-20 mb-4">Lentes VR</p>
-                                <Button text = "Explorar" bgColor = {"bg-white"} textColor = {"text-brandGreen"} />
+                                <Button text = "Explorar" bgColor = "bg-white" textColor = "text-brandGreen" />
                             </div>
                         </div>
                         <img src = {Image2} alt = "img2C2" className = "w-[320px] absolute bottom-0 right-0" data-aos = "fade-up" data-aos-duration = "1100" />
@@ -40,7 +40,7 @@ const Category2 = () => {
                                 <p className = "mb-[2px] text-white">Escucha</p>
                                 <p className = "text-2xl font-semibold mb-[2px]">Tu</p>
                                 <p className = "text-4xl xl:text-5xl font-bold opacity-40 mb-4">Altavoz</p>
-                                <Button text = "Explorar" bgColor = {"bg-white"} textColor = {"text-brandBlue"} />
+                                <Button text = "Explorar" bgColor = "bg-white" textColor = "text-brandBlue" />
                             </div>
                         </div>
                         <img src = {Image3} alt = "img3C2" className = "w-[200px] absolute bottom-4 right-0" data-aos = "fade-up" data-aos-duration = "1600" />

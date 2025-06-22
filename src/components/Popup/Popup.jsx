@@ -21,12 +21,12 @@ const Popup = ({ orderPopup, handleOrderPopup }) => {
                                 </div>
                                 {/* Form section */}
                                 <div className = "mt-4">
-                                    <input type = "text" className = "form-input" name = "txtNombre" id = "txtNombre" placeholder = "Nombres" />
-                                    <input type = "text" className = "form-input" name = "txtApellido" id = "txtApellido" placeholder = "Apellidos" />
-                                    <input type = "email" className = "form-input" name = "txtEmail" id = "txtEmail" placeholder = "Email" />
-                                    <input type = "text" className = "form-input" name = "txtDirección" id = "txtDirección" placeholder = "Dirección" />
+                                    <input type = "text" className = "form-input" name = "nombre" id = "nombre" placeholder = "Nombres" />
+                                    <input type = "text" className = "form-input" name = "apellido" id = "apellido" placeholder = "Apellidos" />
+                                    <input type = "email" className = "form-input" name = "email" id = "email" placeholder = "Email" />
+                                    <input type = "text" className = "form-input" name = "direccion" id = "direccion" placeholder = "Dirección" />
                                     <div className = "flex justify-center">
-                                        <Button text = "Ordenar ahora" bgColor = {"bg-primary"} textColor = {"text-white"} />
+                                        <Button text = "Ordenar ahora" bgColor = "bg-primary" textColor = "text-white" />
                                     </div>
                                 </div>
                             </div>
