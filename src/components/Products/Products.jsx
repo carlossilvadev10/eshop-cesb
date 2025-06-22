@@ -10,7 +10,7 @@ import Image6 from "../../assets/product/p-6.jpg";
 import Image7 from "../../assets/product/p-7.jpg";
 import Image8 from "../../assets/product/p-8.jpg";
 
-const ProductsData = [
+const productsData = [
     {
         id: 1,
         img: Image1,
@@ -77,7 +77,7 @@ const Products = () => {
                     {/* Header section */}
                     <Heading title = "Nuestros productos" subtitle = "Descubre nuestra selección de productos." />
                     {/* Body section */}
-                    <ProductCard data = {ProductsData} />
+                    <ProductCard data = {productsData} />
                 </div>
             </div>
         </section>

@@ -2,7 +2,7 @@ import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-// Componentes generales
+// components
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Category from "./components/Category/Category";
@@ -16,7 +16,7 @@ import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/Shared/ScrollToTop";
 import Popup from "./components/Popup/Popup";
 
-// Assets
+// assets
 import headphone from "./assets/hero/headphone.png";
 import smartwach from "./assets/category/smartwatch.png";
 

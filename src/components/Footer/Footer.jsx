@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow } from "react-icons/fa";
 import { FaMobileAlt } from "react-icons/fa";
 
-const FooterLinks = [
+const footerLinks = [
     {
         title: "Inicio",
         link: "/#",
@@ -21,7 +21,7 @@ const FooterLinks = [
     },
 ];
 
-const QuickLinks = [
+const quickLinks = [
     {
         title: "Términos y condiciones",
         link: "/#",
@@ -67,7 +67,7 @@ const Footer = () => {
                             </h1>
                             <ul className = "space-y-3">
                                 {
-                                    FooterLinks.map((data, index) => (
+                                    footerLinks.map((data, index) => (
                                         <li key = {index}>
                                             <a href = {data.link} className = "text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white duration-300">
                                                 {data.title}
@@ -84,7 +84,7 @@ const Footer = () => {
                             </h1>
                             <ul className = "space-y-3">
                                 {
-                                    QuickLinks.map((data, index) => (
+                                    quickLinks.map((data, index) => (
                                         <li key = {index}>
                                             <a href = {data.link} className = "text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white duration-300">
                                                 {data.title}

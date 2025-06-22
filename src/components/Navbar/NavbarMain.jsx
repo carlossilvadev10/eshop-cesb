@@ -4,7 +4,7 @@ import { FaCaretDown, FaShoppingCart } from "react-icons/fa";
 import { HiBars3BottomRight } from "react-icons/hi2";
 import DarkMode from "./DarkMode";
 
-const MenuLinks = [
+const menuLinks = [
     {
         id: 1,
         name: "Inicio",
@@ -27,7 +27,7 @@ const MenuLinks = [
     },
 ];
 
-const DropdownLinks = [
+const dropdownLinks = [
     {
         id: 1,
         name: "Productos en tendencia",
@@ -68,7 +68,7 @@ const NavbarMain = ({ openMenu }) => {
                     <div className = "hidden xl:flex items-center gap-4">
                         <ul className = "flex items-center gap-4">
                             {
-                                MenuLinks.map((data) => (
+                                menuLinks.map((data) => (
                                     <li key = {data.id}>
                                         <a href = {data.link} className = "px-4 font-semibold text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white duration-200">
                                             {data.name}
@@ -88,7 +88,7 @@ const NavbarMain = ({ openMenu }) => {
                                 <div className = "absolute z-50 hidden group-hover:block w-56 rounded-md bg-white shadow-md dark:bg-gray-900 p-2 dark:text-white">
                                     <ul className = "space-y-2">
                                         {
-                                            DropdownLinks.map((data) => (
+                                            dropdownLinks.map((data) => (
                                                 <li key = {data.id}>
                                                     <a href = {data.link} className = "block p-2 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white hover:bg-primary rounded-md font-semibold duration-200">
                                                         {data.name}

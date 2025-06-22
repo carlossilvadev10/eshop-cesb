@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { FaCaretDown } from "react-icons/fa";
 
-const MenuLinks = [
+const menuLinks = [
     {
         id: 1,
         name: "Inicio",
@@ -25,7 +25,7 @@ const MenuLinks = [
     },
 ];
 
-const DropdownLinks = [
+const dropdownLinks = [
     {
         id: 1,
         name: "Productos en tendencia",
@@ -57,7 +57,7 @@ const NavbarMobile = ({ isMenuOpen, closeMenu }) => {
                 <CgClose className = "absolute top-[2rem] right-[1.5rem] sm:w-8 sm:h-8 w-6 h-6 text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary cursor-pointer duration-200" onClick = {closeMenu} />
                 {/* Menu Links */}
                 {
-                    MenuLinks.map((data) => (
+                    menuLinks.map((data) => (
                         <a key = {data.id}  href = {data.link} className = "text-[20px] sm:text-[30px] font-semibold text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white duration-200" onClick = {closeMenu}>
                             <span className = "inline-block border-b-[2px] border-gray-300 pb-1">
                                 {data.name}
@@ -77,7 +77,7 @@ const NavbarMobile = ({ isMenuOpen, closeMenu }) => {
                         showDropdown && (
                             <div className = "flex flex-col space-y-3 mt-2 pl-2 ">
                                 {
-                                    DropdownLinks.map((data) => (
+                                    dropdownLinks.map((data) => (
                                         <a key = {data.id} href = {data.link} className = "text-[20px] sm:text-[30px] block p-2 text-gray-500 hover:text-black dark:hover:text-white hover:bg-primary rounded-md font-semibold duration-200" onClick = {closeMenu}>
                                             {data.name}
                                         </a>

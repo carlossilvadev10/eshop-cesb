@@ -4,7 +4,7 @@ import Img1 from "../../assets/blogs/blog-1.jpg";
 import Img2 from "../../assets/blogs/blog-2.jpg";
 import Img3 from "../../assets/blogs/blog-3.jpg";
 
-const BlogData = [
+const blogData = [
     {
         title: "Guía definitiva para elegir el mejor smartwatch",
         subtitle: "Descubre cómo elegir el smartwatch perfecto según tu estilo de vida, necesidades y presupuesto. Analizamos características como duración de batería, compatibilidad con tu teléfono, sensores de salud y más.",
@@ -38,7 +38,7 @@ const Blogs = () => {
                 <div className = "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 gap-y-8 sn:gap.4 md:gap-7">
                     {/* Blog card */}
                     {
-                        BlogData.map((data) => (
+                        blogData.map((data) => (
                             <div key = {data.title} className = "bg-white dark:bg-gray-900" data-aos = "fade-up" data-aos-delay = {data.aosDelay}>
                                 {/* Img section */}
                                 <div className = "overflow-hidden rounded-2xl mb-2">

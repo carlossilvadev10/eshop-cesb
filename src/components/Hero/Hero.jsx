@@ -6,7 +6,7 @@ import Imagen2 from "../../assets/category/vr.png";
 import Imagen3 from "../../assets/category/macbook.png";
 import Imagen4 from "../../assets/category/cellphone.png";
 
-const HeroData = () => [
+const heroData = () => [
     {
         id: 1,
         img: Imagen1,
@@ -57,7 +57,7 @@ const Hero = ({ handleOrderPopup }) => {
                     {/* Hero section */}
                     <Slider {...settings}>
                         {
-                            HeroData().map((data) => (
+                            heroData().map((data) => (
                                 <div key = {data.id}>
                                     <div className = "grid grid-cols-1 sm:grid-cols-2 overflow-hidden">
                                         {/* Text content section */}
