@@ -42,7 +42,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
 1. **Clona el repositorio:**
 
    ```bash
-   git clone https://github.com/carlozzsilva10/eshop-cesb.git
+   git clone https://github.com/carlossilvadev10/eshop-cesb.git
    ```
 
 2. **Entra en el directorio del proyecto:**
@@ -75,7 +75,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
 
 Si tienes alguna pregunta o sugerencia, puedes encontrarme en:
 
-- 🌐 [Mi GitHub](https://github.com/carlozzsilva10)
+- 🌐 [Mi GitHub](https://github.com/carlossilvadev10)
 - 📧 Email: [carlos.esilva1007@gmail.com](mailto:carlos.esilva1007@gmail.com)
 - 💼 [Mi LinkedIn](https://www.linkedin.com/in/carlos-eduardo-silva-bustamante-b6084528b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
