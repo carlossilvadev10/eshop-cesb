@@ -2,50 +2,10 @@ import React, { useEffect, useState } from "react";
 import { IoMdSearch } from "react-icons/io";
 import { FaCaretDown, FaShoppingCart } from "react-icons/fa";
 import { HiBars3BottomRight } from "react-icons/hi2";
+import { dropdownLinks, menuLinks } from "../../data/data";
 import DarkMode from "./DarkMode";
 
-const menuLinks = [
-    {
-        id: 1,
-        name: "Inicio",
-        link: "/#",
-    },
-    {
-        id: 2,
-        name: "Sobre nosotros",
-        link: "/#",
-    },
-    {
-        id: 3,
-        name: "Tienda",
-        link: "/#",
-    },
-    {
-        id: 4,
-        name: "Blogs",
-        link: "/#",
-    },
-];
-
-const dropdownLinks = [
-    {
-        id: 1,
-        name: "Productos en tendencia",
-        link: "/#",
-    },
-    {
-        id: 2,
-        name: "Más vendidos",
-        link: "/#",
-    },
-    {
-        id: 3,
-        name: "Mejor valorados",
-        link: "/#",
-    },
-];
-
-const NavbarMain = ({ openMenu }) => {
+const NavbarMain = ({ openMenu, handleOrderPopup }) => {
     const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
@@ -109,7 +69,7 @@ const NavbarMain = ({ openMenu }) => {
                             <IoMdSearch className = "text-xl text-gray-600 dark:text-gray-400 group-hover:text-primary absolute top-1/2 -translate-y-1/2 right-3 transition-colors duration-200" />
                         </div>
                         {/* Order-button section */}
-                        <button className = "relative p-3">
+                        <button className = "relative p-3" onClick = {handleOrderPopup}>
                             <FaShoppingCart className = "text-xl text-gray-600 dark:text-gray-400" />
                             <div className = "w-4 h-4 bg-red-500 text-white rounded-full absolute top-0 right-0 flex items-center justify-center text-xs">
                                 4

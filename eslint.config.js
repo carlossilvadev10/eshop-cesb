@@ -3,21 +3,21 @@ import globals from 'globals'
 import react from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
+import { defineConfig, globalIgnores } from 'eslint/config'
 
-export default [
-  { ignores: ['dist'] },
+export default defineConfig([
+  globalIgnores(['dist']),
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {
-      ecmaVersion: 2020,
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+      ecmaFeatures: { jsx: true },
       globals: globals.browser,
-      parserOptions: {
-        ecmaVersion: 'latest',
-        ecmaFeatures: { jsx: true },
-        sourceType: 'module',
-      },
     },
-    settings: { react: { version: '18.3' } },
+    settings: {
+      react: { version: 'detect' },
+    },
     plugins: {
       react,
       'react-hooks': reactHooks,
@@ -35,4 +35,4 @@ export default [
       ],
     },
   },
-]
+])

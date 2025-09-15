@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -43,7 +43,7 @@ const BannerData2 = {
 };
 
 const App = () => {
-    const [orderPopup, setOrderPopup] = React.useState(false);
+    const [orderPopup, setOrderPopup] = useState(false);
     const handleOrderPopup = () => {
         setOrderPopup(!orderPopup);
     }

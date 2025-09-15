@@ -51,7 +51,8 @@ const Footer = () => {
                         </a>
                         <p className = "xl:pr-10 pt-3 text-justify">
                             En <strong>EShop CESB</strong>, ofrecemos los últimos dispositivos tecnológicos para mejorar tu día a día.
-                            Encuentra desde smartphones y laptops hasta accesorios innovadores con la mejor calidad y garantía.</p>
+                            Encuentra desde smartphones y laptops hasta accesorios innovadores con la mejor calidad y garantía.
+                        </p>
                         <p className = "mt-4 text-justify">
                             Hecho con ❤️ por <a href = "https://github.com/carlozzsilva10" target = "_blank" rel = "noopener noreferrer" className = "text-primary font-semibold hover:underline">carlozzsilva10</a>
                         </p>
@@ -124,6 +125,11 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="border-t border-gray-300 dark:border-gray-700 pt-6 pb-6">
+                    <p className="text-center text-sm font-medium text-gray-500 dark:text-gray-400">
+                        © {new Date().getFullYear()} <strong>ESHOP CESB</strong>. Todos los derechos reservados.
+                    </p>
                 </div>
             </div>
         </footer>
