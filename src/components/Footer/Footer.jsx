@@ -126,8 +126,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="border-t border-gray-300 dark:border-gray-700 pt-6 pb-6">
-                    <p className="text-center text-sm font-medium text-gray-500 dark:text-gray-400">
+                <div className = "border-t border-gray-300 dark:border-gray-700 pt-6 pb-6">
+                    <p className = "text-center text-sm font-medium text-gray-500 dark:text-gray-400">
                         © {new Date().getFullYear()} <strong>ESHOP CESB</strong>. Todos los derechos reservados.
                     </p>
                 </div>

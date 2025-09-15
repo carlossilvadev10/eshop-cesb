@@ -29,7 +29,7 @@ const ScrollToTop = () => {
     return (
         <div className = "fixed bottom-4 right-4 z-50">
             <button className = {`bg-primary hover:bg-[#c8242d] text-white rounded-full w-12 h-12 flex items-center justify-center focus:outline-none transition-all duration-300 shadow-lg ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4 pointer-events-none"}`} onClick = {scrollToTop}>
-                <FaArrowUp className={`text-lg ${clicked ? "animate-bounce" : ""}`} />
+                <FaArrowUp className = {`text-lg ${clicked ? "animate-bounce" : ""}`} />
             </button>
         </div>
     )
