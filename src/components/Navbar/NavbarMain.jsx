@@ -17,7 +17,7 @@ const NavbarMain = ({ openMenu, handleOrderPopup }) => {
     }, []);
 
     return (
-        <nav className = {`bg-white dark:bg-gray-900 dark:text-white duration-200 fixed w-full z-10 ${isScrolled ? "shadow-md" : ""}`}>
+        <nav className = {`bg-white dark:bg-gray-900 dark:text-white transition-all duration-200 fixed w-full z-10 ${isScrolled ? "shadow-md" : ""}`}>
             <div className = "py-4">
                 <div className = "container flex justify-between items-center">
                     {/* Logo */}
