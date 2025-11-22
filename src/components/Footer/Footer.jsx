@@ -54,7 +54,7 @@ const Footer = () => {
                             Encuentra desde smartphones y laptops hasta accesorios innovadores con la mejor calidad y garantía.
                         </p>
                         <p className = "mt-4 text-justify">
-                            Hecho con ❤️ por <a href = "https://github.com/carlozzsilva10" target = "_blank" rel = "noopener noreferrer" className = "text-primary font-semibold hover:underline">carlozzsilva10</a>
+                            Hecho con ❤️ por <a href = "https://github.com/carlossilvadev10" target = "_blank" rel = "noopener noreferrer" className = "text-primary font-semibold hover:underline">carlossilvadev10</a>
                         </p>
                         <a href = "#" target = "_blank" className = "inline-block bg-primary/90 text-white px-4 py-2 mt-4 text-sm rounded-full">
                             Visita mi canal de Youtube
